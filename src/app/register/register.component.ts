@@ -24,7 +24,7 @@ export class RegisterComponent implements OnInit {
     ) {
         this.emailPattern = '^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$';
         this.contactNoPattern = '^[6,7,8,9]{1}[0-9]{9}$';
-        this.pinPattern = '^[0-9]{4}';
+        this.pinPattern = '^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$';
     }
 
     ngOnInit(): void {
